@@ -26,20 +26,25 @@ public class CategoryCatalog: IPrintable, ISearch
     public void RemoveCategory(Category cat){}  
 
     // Devuelve todas las categorías que hay en el catálogo.
+    // Devulve un string vacío para que en estos momentos no de un error. 
     public string GetCategories(){return "";}
 
     // Método que devulve todos las ofertas de trabajo dentro de la categoría
+    // Devulve un string vacío para que en estos momentos no de un error. 
     public string GetWorkOffersInCategory(string nameCategory){return "";}
 
     /*
      Método que devulve todos las ofertas de trabajo ordenadas de 
-     forma ascendente por la distancia entre el empleador y el trajador
+     forma ascendente por la distancia entre el empleador y el trajador.
+     Devulve un string vacío para que en estos momentos no de un error. 
     */
     public string GetSortWorkOffersByLocation(){return "";}
 
     /*
      Método que devulve todos las ofertas de trabajo ordenadas de 
-     forma descendente por la puntuación del trabajador
+     forma descendente por la puntuación del trabajador.
+     Devulve un string vacío para que en estos momentos no de un error. 
+
     */
     public string GetSortWorkOffersByRating(){return "";}
 }

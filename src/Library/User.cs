@@ -24,5 +24,6 @@ public class User: Profile, IPrintable
 
     // Este método devolvería toda la información que podría verse (excluímos la contraseña y el nombre de usuario).
     // Tiene un return con un string vacío para que no marque un error de sintaxis. 
+    // Devulve un string vacío para que en estos momentos no de un error. 
     public string GetInformatioUser(){return "";}
 }

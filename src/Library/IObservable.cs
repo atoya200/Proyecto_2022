@@ -1,8 +1,8 @@
 namespace Library;
 
+// Siguiendo el patrón observador es que surge esta interfaz
 public interface IObservable
-{   // Siguiendo el patrón observador es que surge esta interfaz
-
+{   
     // Guardamos los observadores que puede llegar a tener un objeto de este tipo
     public List<IObserver> Observers {get;}
 

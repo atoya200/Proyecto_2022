@@ -26,8 +26,10 @@ public class WorkOffer: IPrintable, IObservable
     public void RemoveSubscriber(IObserver observer){}    
     
     // Método encargado de revisar que subscriptores hay y notificarlos sobre el cambio previsto.
+    // Devulve un string vacío para que en estos momentos no de un error. 
     public string Notify(){return "";}
 
     // Este método devuelve la información de la oferta de trabajo, quién la creeo, el precio y la descripción.
+    // Devulve un string vacío para que en estos momentos no de un error. 
     public string GetInformationWorkOffer(){return "";}
 }
